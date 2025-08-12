@@ -1,0 +1,22 @@
+.blur{
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 2px solid #C4BEB4;
+}
+.blur_inside{
+background: rgba(255, 255, 255, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.7px);
+-webkit-backdrop-filter: blur(8.7px);
+border: 1px solid rgba(255, 255, 255, 0.54);
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.white{
+  color: white;
+}
