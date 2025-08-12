@@ -77,6 +77,7 @@ const Sidebar = () => {
             <Link to="/temple" onClick={handleNavItemClick} className="nav-link fs-14 text-light">Temples</Link>
             <Link to="/membership" onClick={handleNavItemClick} className="nav-link fs-14 text-light">Membership</Link>
             <Link to="/gallery" onClick={handleNavItemClick} className="nav-link fs-14 text-light">Gallery</Link>
+            <Link to="/review" onClick={handleNavItemClick} className="nav-link fs-14 text-light">Review</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
