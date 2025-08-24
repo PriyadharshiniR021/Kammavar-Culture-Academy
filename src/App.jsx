@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Service } from './Pages/Service'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
 import Temple from './Pages/Temple'
 import Membership from './Pages/Membership'
 import Gallery from './Pages/Gallery'
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <Sidebar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -31,7 +31,7 @@ function App() {
 
     </Routes>
     <Footer/>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
