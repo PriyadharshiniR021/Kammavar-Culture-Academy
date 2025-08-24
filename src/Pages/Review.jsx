@@ -12,8 +12,8 @@ export default function Review() {
                 minHeight: "100vh"
             }} >
                 <div className="container py-5">
-                    <div className='m-5 d-flex flex-column align-items-center'>
-                        <h2 className=' fw-bold'>From The Hearts We Serve</h2>
+                    <div className='mt-5 d-flex flex-column align-items-center'>
+                        <h2 className=' fw-bold text-center'>From The Hearts We Serve</h2>
                         <p className=''>Your suggestion and feedback open here</p>
                         <form>
                             <div className='d-flex gap-2'>

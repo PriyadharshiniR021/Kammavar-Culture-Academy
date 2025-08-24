@@ -28,6 +28,7 @@ function App() {
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/magazine' element={<Magazine/>}/>
       <Route path='/review' element={<Review/>}/>
+
     </Routes>
     <Footer/>
     </BrowserRouter>
